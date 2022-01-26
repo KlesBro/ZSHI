@@ -19,3 +19,6 @@ ZSHI - My program to install ZSH on your Linux! Not only him, but also the plugi
 3 - `sh ZSHI2.sh` - This file install plugins for zsh and theme for zsh
 
 4) Enjoy you pretty terminal)))
+
+# Result
+![rs](https://user-images.githubusercontent.com/85430054/151117570-1704d314-0fdc-4e34-92bb-a0819821e245.png)
