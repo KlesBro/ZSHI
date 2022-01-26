@@ -2,11 +2,13 @@
 # ZSHI
 ZSHI - My program to install ZSH on your Linux! Not only him, but also the plugins and the theme. Should save a lot of time. 
 # How to install?
+
 1)First, let's clone the repository.
 
 `git clone https://github.com/KlesBro/ZSHI`
 
 2) Download this font and install, set this font in terminal. https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete%20Mono.ttf
+
 
 3)Then go to the cloned folder and write the commands (commands from below).
 
