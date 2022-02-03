@@ -26,21 +26,16 @@ echo "${LRED}███████╗███████╗██╗  ██�
  ███╔╝  ╚════██║██╔══██║██║╚═╝
 ███████╗███████║██║  ██║██║██╗
 ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝"
-echo ${WHITE}------------------
-echo "${LGREEN}Downloading plugins for zsh..."
+echo "${WHITE}------------------"
+echo "${LGREEN}Removing oh-my-zsh..."
 tput sgr0
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
+rm -v -r ~/.oh-my-zsh
 echo "${LGREEN}Done!"
-echo "${LGREEN}Setting up .zshrc..."
+echo "${LGREEN}Removing zsh..."
 tput sgr0
-cp -v ./CFG/1/.zshrc ~/ #high
-echo "${LGREEN}Done!"
-echo "${LGREEN}Downloading theme for zsh..."
-tput sgr0
-git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/themes/powerlevel10k
-echo "${LGREEN}Done!"
-echo "${LGREEN}Setting up .zshrc..."
-tput sgr0
-cp -v ./CFG/2/.zshrc ~/ #p10k
-echo "${LGREEN}All done!"
-tput sgr0
+sudo apt remove zsh
+rm -v ~/.zshrc
+rm -v ~/.zsh_history
+rm -v ~/.p10k.zsh
+echo "${LGREEN}All done!
+"
